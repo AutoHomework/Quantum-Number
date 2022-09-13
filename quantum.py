@@ -1,6 +1,6 @@
 # Author: SynnK
 # Date: 09/13/2022
-# 11:29 AM
+# 11:49 AM
 
 # Superscript / small numbers
 superscript = {0:'⁰', 1:'¹', 2:'²', 3:'³', 4:'⁴', 5:'⁵', 6:'⁶', 7:'⁷', 8:'⁸', 9:'⁹'}
@@ -16,8 +16,9 @@ s = input('Enter the s: ')
 if m > l:
     print('The magnetic number cannot be greater than the layer (e.g: L=2 (d) M=3)')
  
-if s != '-1/2' or s != '+1/2':
-    print(f'The SPIN is wrong, only +1/2 and -1/2 is accepted! {s} is not valid.')
+if s != '-1/2':
+    if s != '+1/2':
+        print(f'The SPIN is wrong, only +1/2 and -1/2 is accepted! {s} is not valid.')
 
 # S supports 2 | P supports 6 | D supports 10 | F supports 14
 # (0*2+1)*2    | (1*2+1)*2    | (2*2+1)*2     | (3*2+1)*2
