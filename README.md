@@ -3,8 +3,19 @@
 Find the Valence Shell using this Python program
 
 It's a solver to your chemistry homeworks / exams, also helped me (SynnK) (dev) on my own exam.
+# Output
+```
+n= 8 | l= 3 | m= 2 | s = -1/2
+                8F¹³
+[ ⇅ | ⇅ | ⇅ | ⇅ | ⇅ | ⇅ | ↑ ]
 
-### 🔧 Logic 🔧
+---
+n= 8 | l= 3 | m= -2 | s = +1/2
+                8F²
+[ ↑ | ↑ |  |  |  |  |  ]
+```
+
+# 🔧 Logic 🔧
 ```txt
 n = the number (e.g: 3)
 l = the layer (e.g: 2 | 3D)
