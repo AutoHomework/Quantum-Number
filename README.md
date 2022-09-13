@@ -6,12 +6,12 @@ It's a solver to your chemistry homeworks / exams, also helped me (SynnK) (dev) 
 # Output
 ```
 n= 8 | l= 3 | m= 2 | s = -1/2
-                8F¹³
+           8F¹³
 [ ⇅ | ⇅ | ⇅ | ⇅ | ⇅ | ⇅ | ↑ ]
 
 ---
 n= 8 | l= 3 | m= -2 | s = +1/2
-                8F²
+           8F²
 [ ↑ | ↑ |  |  |  |  |  ]
 ```
 
